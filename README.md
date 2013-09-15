@@ -8,7 +8,7 @@ The source of data is in EUR, but the base rate should be set to USD.
 
 1. Read the currency data feed: http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
 2. Parse the output.
-3. Store the values from the run in a DB, using a model of your design.
+3. Store the values from the run in a DB.
 
 
 * Webapp
