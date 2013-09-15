@@ -1,18 +1,20 @@
-== README
+README
 
-Currency exchange rate comparator and loader.
+# Currency exchange rate comparator and loader.
 
-* Currency rate loader
+## Currency rate loader
 Import currency rates once per date.  The currency rate loader must not run a second time for a specific date, if it has previously been run before on that date.
 The source of data is in EUR, but the base rate should be set to USD.
 
+### Process
 1. Read the currency data feed: http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+
 2. Parse the output.
+
 3. Store the values from the run in a DB.
 
 
-* Webapp
-
+## Webapp
 1. Allows the user to search for all exchange rates for all currencies on a specific date.
 
 2. Allow the user to select a source and target exchange rate, a date and a source amount. Using these parameters perform a conversion for the given parameters on that date.
